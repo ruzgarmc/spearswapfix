@@ -1,0 +1,24 @@
+// 26.x obfuscate edilmeden geliyor: mappings yok, duz implementation.
+plugins {
+    id 'net.fabricmc.fabric-loom' version "${loom_version}"
+    id 'java'
+}
+version = project.mod_version
+base { archivesName = project.archives_base_name }
+repositories {
+    maven { url = 'https://maven.terraformersmc.com/releases/' }
+}
+dependencies {
+    compileOnly "com.terraformersmc:modmenu:21.0.0"
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+
+}
+java {
+    sourceCompatibility = JavaVersion.VERSION_25
+    targetCompatibility = JavaVersion.VERSION_25
+}
+tasks.withType(JavaCompile).configureEach {
+    options.release = 25
+    options.encoding = 'UTF-8'
+}

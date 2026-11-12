@@ -1,0 +1,7 @@
+{
+  "modmenu.nameTranslation.spearswapfix": "Spear Swap Fix",
+  "modmenu.descriptionTranslation.spearswapfix": "26.3'teki spear lunge animasyonu bugını düzeltir: spear ile vurup başka bir iteme geçince yeni item, spear'ın uzun lunge/dürtme animasyonunu almaya devam ediyordu. 1.21.11'deki gibi sallama o an elinde tuttuğun itemi takip eder. Sadece client tarafında ve görseldir; Mod Menu'den açılıp kapatılabilir.",
+  "spearswapfix.config.title": "Spear Swap Fix",
+  "spearswapfix.config.enabled": "Lunge animasyon fixi",
+  "spearswapfix.config.enabled.tooltip": "Açık: spear'dan başka iteme geçince elindeki item kendi sallamasını yapar (1.21.11 gibi). Kapalı: 26.3'ün kendi davranışı."
+}

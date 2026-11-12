@@ -1,0 +1,7 @@
+{
+  "modmenu.nameTranslation.spearswapfix": "Spear Swap Fix",
+  "modmenu.descriptionTranslation.spearswapfix": "Fixes the 26.3 spear lunge animation bug: after attacking with a spear and swapping to another item, the new item kept the spear's long lunge/stab animation. Restores the 1.21.11 behaviour, where the swing follows the item you are currently holding. Client-side and visual only; can be toggled in Mod Menu.",
+  "spearswapfix.config.title": "Spear Swap Fix",
+  "spearswapfix.config.enabled": "Lunge animation fix",
+  "spearswapfix.config.enabled.tooltip": "On: after swapping away from a spear, the held item uses its own swing (like 1.21.11). Off: vanilla 26.3 behaviour."
+}
