@@ -5,6 +5,7 @@
   "name": "Spear Swap Fix",
   "description": "Fixes the 26.3 spear lunge animation bug after swapping items (restores 1.21.11 behaviour).",
   "authors": ["ruzgarmc"],
+  "license": "MIT",
   "contact": { "sources": "https://github.com/ruzgarmc/spearswapfix", "issues": "https://github.com/ruzgarmc/spearswapfix/issues" },
   "environment": "client",
   "mixins": ["spearswapfix.mixins.json"],
